@@ -1,0 +1,590 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    color: rgb(161, 143, 143);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    position: relative;
+    left: 6em;
+    text-decoration: none;
+    color: rgb(7, 32, 32);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.logo {
+    position: relative;
+    right: 8em;
+    bottom: 2.3em;
+    height: 6em;
+    width: 40%;
+    border-radius: 0.5em;
+}
+
+.cover-img {
+    position: relative;
+    right: 5em;
+    bottom: em;
+    height: 30;
+    width: 107%;
+    border-radius: 0.5em;
+}
+
+
+
+.cover h1 {
+    
+    font-size: 2rem;
+    position: relative;
+    bottom: 25em;
+    color: rgb(255, 249, 249);
+}
+
+.cover p {
+    font-size: 2em;
+    position: relative;
+    bottom: 20em;
+    color: rgb(255, 255, 255);
+}
+
+.cover button {
+    color: #ffffff;
+      position: relative;
+    bottom: 24em;
+    left: 25em;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:#ac2530;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.kids h1{
+    color:#ac2530 ;
+font-size: 3em;
+    text-align: center;
+    position: relative;
+    bottom: 6em;
+}
+
+.kids p{
+    font-size: 1.7em;
+    position: relative;
+    left: 0.5em;
+    bottom: 8em;
+    color:rgb(7, 32, 32) ;
+}
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-gallery {
+    position: relative;
+    bottom: 9em;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-gallery2 img {
+    border: rgb(7, 32, 32)  ;
+    height: 25em;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.image-gallery2 {
+    position: relative;
+    bottom: 4em;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.image-gallery img {
+    
+    height: 25em;
+    width: 40%;
+    border-radius: 20px;
+}
+.teachers{
+   
+    color: #ebebeb;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.teachers,h1{
+    position: relative;
+    color: rgb(7, 32, 32) ;
+    font-size: 1.8em;
+    text-shadow: #f6faff;
+position: relative;
+bottom: 1em;
+   
+}
+.teachers,p{
+    color:rgb(7, 32, 32) ;
+   
+   
+}
+.image-gallery3 {
+    position: relative;
+    bottom: 0.1em ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-gallery4 img {
+    border: rgb(7, 32, 32)  ;
+    height: 13em;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.image-gallery4 {
+    position: relative;
+    top:1em ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.image-gallery3 img {
+    height: 13em;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 32, 32) ;  
+    padding: 20px;
+    
+}
+.footer-content p{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 1em;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.footer-section h3 {
+    color: #ff0000; 
+}
+
+@media (max-width: 1024px) {
+    .navbar a {
+        position: relative;
+        left: 6em;
+        text-decoration: none;
+        color: rgb(7, 32, 32);
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .logo {
+        right: 6em;
+        bottom: 2.1em;
+        width: 35%;
+        height: auto;
+    }
+
+    .cover-img {
+        width: 110%;
+        height: auto;
+    }
+
+    .cover h1, .cover p {
+        position: relative;
+        bottom: 30em;
+        text-align: center;
+    }
+
+    .cover h1 {
+        font-size: 2em;
+    }
+
+    .cover p {
+        font-size: 1.5em;
+    }
+
+    .cover button {
+        bottom: 50em;
+        left: 20em;
+        position: relative;
+        font-size: 0.9em;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .kids h1, .kids p {
+        width: 100%;
+        bottom: 5em;
+        position: relative;
+        text-align: center;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(7, 32, 32) ;  
+        padding: 20px;
+        
+    }
+    .footer-content p{
+        font-size:1em;
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 1em;
+    }
+    
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .navbar li {
+        position: relative;
+        right:7em;
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    .navbar a {
+        position: relative;
+        bottom: 1em;
+        left: 15em;
+        text-decoration: none;
+        color: rgb(7, 32, 32);
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .logo {
+        right: 10em;
+        bottom: 1.5em;
+        height: auto;
+    }
+    .cover-img {
+        position: static; 
+        width: 100%; 
+        height: auto; 
+        border-radius: 0; 
+        margin: 0 auto; 
+    }
+
+    .cover h1{
+        bottom: 25em; 
+        font-size: 1.5em;
+    }
+
+    .cover p{
+        bottom: 17em; 
+        font-size: 1.4em;
+    }
+    .cover button { 
+        bottom: 30em; 
+        font-size: 0.7em;
+        position: relative;
+        left:20em;
+      
+
+
+    }
+
+    .image-gallery img, .image-gallery2 img, {
+        border: rgb(7, 32, 32);
+        height: 20em;
+        width: 40%;
+        border-radius: 20px;
+    }
+    
+     
+    .image-gallery3 img, .image-gallery4 img {
+        border: rgb(7, 32, 32);
+        height: 20em;
+        width: 45%;
+        border-radius: 20px;
+    }
+    .kids h1, .kids p {
+        font-size: 1.5em;
+        width: 100%;
+        bottom: 10em;
+        position: relative;
+        text-align: center;
+    }
+    .teachers,h1{
+        position: relative;
+        color: rgb(7, 32, 32) ;
+        font-size: 1.5em;
+        text-shadow: #f6faff;
+    position: relative;
+    bottom: 1em;
+       
+    }
+    .teachers,p{
+        position: relative;
+        bottom: 1em;
+        color:rgb(7, 32, 32) ;
+       
+       
+    }
+
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(7, 32, 32) ;  
+        padding: 20px;
+        
+    }
+    .footer-content p{
+        font-size: 0.8em;
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 1em;
+    }
+    
+    .footer-section {
+        flex: 1;
+        padding: 10px;
+        margin: 1px;
+    }
+    
+    
+    .footer-section h3 {
+        font-size: 0.8em;
+        color: #ff0000; 
+    }
+
+@media (max-width: 576px) {
+    .navbar ul {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .navbar li {
+        position: relative;
+        display: inline;
+        margin-right: 10px; 
+    }
+    
+    .navbar a {
+        position: relative;
+        left: 11em; 
+        text-decoration: none;
+        color: rgb(7, 32, 32);
+        font-weight: bold;
+        font-size: 0.9em; 
+    }
+
+    .logo {
+        position: relative;
+        right: 28%; 
+        top: -5vw; 
+        width: 40%; 
+        height: auto; 
+    }
+    .cover-img {
+        width: 115%;
+        position: relative; 
+        height: auto; 
+        border-radius: 0; 
+        margin: 0 auto; 
+    }
+
+    .cover button {
+        font-size: 0.7em;
+    }
+
+    .image-gallery img, .image-gallery2 img,  {
+        border: rgb(7, 32, 32);
+        height: 13em; 
+        width: 45%;
+        border-radius: 20px;
+    }
+    
+    .image-gallery3 img, .image-gallery4 img {
+        border: rgb(7, 32, 32);
+        height: 8em; 
+        width: 45%;
+        border-radius: 20px;
+    }
+     .footer-content p {
+        font-size: 0.6em;
+    }
+    .footer-content  {
+        width: 100%;
+        font-size: 1.3em; 
+        margin-top: 5px; 
+    }
+
+    .footer-section h3 {
+        font-size: 0.6em;
+    }
+
+    .footer-section {
+        margin: 2px; 
+}
+}
+@media (max-width: 430px) {
+    .navbar ul {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .navbar li {
+        position: relative;
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .navbar a {
+        position: relative;
+        left: 15em;
+        text-decoration: none;
+        color: rgb(7, 32, 32);
+        font-weight: bold;
+        font-size: 0.7em;
+    }
+
+    .logo {
+        position: relative;
+        right: 36%;
+        top: -7vw;
+        width: 45%;
+        height: auto;
+    }
+
+    .cover-img {
+        width: 120%;
+        position: relative;
+        left: 0;
+        height: auto;
+        border-radius: 0;
+        margin: 0 auto;
+    }
+
+    .cover h1 {
+        font-size: 1.5em;
+        position: relative;
+        bottom: 22em;
+        
+    }
+
+    .cover p {
+        font-size: 1.5em;
+        position: relative;
+        bottom: 22em;
+       
+    }
+
+    .cover button {
+        font-size: 0.5em;
+        margin: 10px auto;
+        display: block;
+       bottom:50em;
+       left: 20em;
+       
+    }
+
+    .welcome h2 {
+        font-size: 1em;
+        position: relative;
+        left: 0.3em;
+    }
+
+    .image-gallery img, .image-gallery2 img, {
+        position: relative;
+        left:0em;
+        border: rgb(7, 32, 32);
+        height: 15em;
+        width: 45%;
+        border-radius: 10px;
+    }
+    .image-gallery3 img, .image-gallery4 img {
+        position: relative;
+        left:0em;
+        border: rgb(7, 32, 32);
+        height: 10em;
+        width: 45%;
+        border-radius: 10px;
+    }
+
+    .about {
+        width: 90%;
+        position: relative;
+        left: -1em;
+        bottom: 1em;
+        height: auto;
+        color: #ebebeb;
+        background-color: #51686d;
+    }
+
+    .footer-content p {
+        font-size: 0.5em;
+    }
+    .footer-content  {
+        width: 100%;
+        font-size: 1em; 
+        margin-top: 5px; 
+    }
+
+    .footer-section h3 {
+        font-size: 0.6em;
+    }
+    .footer-section p {
+        color: #ffffff;
+}   
+
+    .footer-section {
+        margin: 2px; 
+        left: 10em ;
+}   

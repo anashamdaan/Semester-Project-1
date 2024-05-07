@@ -1,0 +1,687 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    color: rgb(161, 143, 143);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    position: relative;
+    left: 6em;
+    text-decoration: none;
+    color: rgb(7, 32, 32);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.logo {
+    position: relative;
+    right: 8em;
+    bottom: 2.3em;
+    height: 6em;
+    width: 40%;
+    border-radius: 0.5em;
+}
+
+.cover-img {
+    position: relative;
+    right: 5em;
+    height: 1%;
+    width: 107%;
+ 
+}
+
+
+.cover h1 {
+    font-size: 3em;
+    position: relative;
+    bottom: 30em;
+    color: rgb(255, 0, 0);
+}
+.cover1 h1 {
+    font-size: 3em;
+    position: relative;
+    bottom: 18em;
+    color: rgb(255, 0, 0);
+}
+
+.cover p {
+    font-size: 1.7em;
+    margin-top: 10px;
+    position: relative;
+    bottom: 30em;
+    color: rgb(255, 255, 255);
+}
+.cover1 p {
+    font-size: 1.7em;
+    margin-top: 10px;
+    position: relative;
+    bottom: 18em;
+    color: rgb(255, 255, 255);
+}
+.cover button {
+    color: #ffffff;
+      position: relative;
+    bottom: 40em;
+    left: 20em;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(255, 0, 0) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.cover1 button {
+    height: 3em;
+    color: #ffffff;
+      position: relative;
+
+    bottom: 30em;
+    left: 20em;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(255, 0, 0) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.comment {
+    color:rgb(32, 7, 7) ;
+    position: relative;
+    bottom: 7em;
+    font-size: 2em;
+}
+
+.inter-info h1{
+    font-size: 2em;
+    color:rgb(255, 0, 0);
+    position: relative;
+    bottom:1em;
+    
+    
+}
+.inter-info p{
+    font-size: 1em;
+    color:rgb(7, 32, 32) ;
+    position: relative;
+  bottom: 9em;
+    
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 32, 32) ;  
+    padding: 20px;
+    
+}
+.footer-content p{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 1em;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.footer-section h3 {
+    color: #ff0000; 
+}
+
+@media (max-width: 1024px) {
+    .navbar a {
+        position: relative;
+        left: 6em;
+        text-decoration: none;
+        color: rgb(7, 32, 32);
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .logo {
+        right: 6em;
+        bottom: 2.1em;
+        width: 35%;
+        height: auto;
+    }
+
+    .cover-img {
+        width: 110%;
+        height: auto;
+    }
+
+    .cover-img {
+        position: relative;
+        right: 5em;
+        height: 59em;
+        width: 74em;
+     
+    }
+    
+    
+    .cover p span {
+        font-size: 1.5em;
+        color: red;
+    }
+    .cover h1 {
+        font-size: 3emm;
+        position: relative;
+        bottom:15em;
+        color: rgb(255, 0, 0);
+    }
+    .cover1 h1 {
+        font-size: 3emm;
+        position: relative;
+        bottom:15em;
+        color: rgb(255, 0, 0);
+    }
+    
+    .cover p {
+        font-size: 2em;
+        margin-top: 10px;
+        position: relative;
+        bottom: 18em;
+        color:     background-color: rgb(7, 32, 32) ;  
+    
+    }
+    .cover1 p {
+        font-size: 2em;
+        margin-top: 10px;
+        position: relative;
+        bottom: 18em;
+        color: rgb(255, 255, 255);
+    }
+    .cover button {
+        color: #ffffff;
+          position: relative;
+        bottom: 30em;
+        left: 20em;
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: rgb(255, 0, 0) ;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .cover1 button {
+        color: #ffffff;
+          position: relative;
+        bottom: 30em;
+        left: 20em;
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: rgb(255, 0, 0) ;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .comment {
+        font-size: 2em;
+        color:rgb(32, 7, 7) ;
+        position: relative;
+        bottom: 7em;
+    }
+    .inter-info h1{
+        font-size: 2em;
+        color:rgb(255, 0, 0);
+        position: relative;
+        bottom:1em;
+        
+        
+    }
+    .inter-info p{
+        font-size: 1em;
+        color:rgb(7, 32, 32) ;
+        position: relative;
+      bottom: 9em;
+        
+    }
+
+    
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(7, 32, 32) ;  
+        padding: 20px;
+        
+    }
+    .footer-content p{
+        font-size:1em;
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 1em;
+    }
+    
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .navbar li {
+        position: relative;
+        right:7em;
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    .navbar a {
+        position: relative;
+        bottom: 1em;
+        left: 15em;
+        text-decoration: none;
+        color: rgb(7, 32, 32);
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .logo {
+        right: 10em;
+        bottom: 1.5em;
+        height: auto;
+    }
+    .cover-img {
+        position: static; 
+        width: 100%; 
+        height: auto; 
+        border-radius: 0; 
+        margin: 0 auto; 
+    }
+
+    .cover h1{
+        bottom: 33em; 
+        font-size: 2em;
+    }
+    .cover1 h1{
+        bottom: 14em; 
+        font-size: 2em;
+    }
+    .cover1 p {
+        font-size: 1.3em;
+        margin-top: 10px;
+        position: relative;
+        bottom: 18em;
+        color: rgb(255, 255, 255);
+    }
+    .cover p{
+        bottom: 35em; 
+        font-size: 1.4em;
+    }
+    .cover button { 
+        bottom: 50em; 
+        font-size: 0.7em;
+        position: relative;
+        left:20em;
+    }
+    .cover1 button {
+        color: #ffffff;
+          position: relative;
+        bottom: 30em;
+        left: 20em;
+        padding: 10px 20px;
+        font-size: 0.8em;
+        background-color: rgb(255, 0, 0) ;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .comment {
+        font-size: 2em;
+        color:rgb(32, 7, 7) ;
+        position: relative;
+        bottom: 5em;
+    }
+    .inter-info h1{
+        font-size: 1.5em;
+        color:rgb(255, 0, 0);
+        position: relative;
+        bottom:1em;
+        
+        
+    }
+    .cover p span {
+        font-size: 1.5em;
+        color: red;
+    }
+    .inter-info p{
+        font-size: 1em;
+        color:rgb(7, 32, 32) ;
+        position: relative;
+      bottom: 9em;
+        
+    }
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(7, 32, 32) ;  
+        padding: 20px;
+        
+    }
+    .footer-content p{
+        font-size:em;
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 1em;
+    }
+    
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+
+
+@media (max-width: 576px) {
+    .navbar ul {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .navbar li {
+        position: relative;
+        display: inline;
+        margin-right: 10px; 
+    }
+    
+    .navbar a {
+        position: relative;
+        left: 11em; 
+        text-decoration: none;
+        color: rgb(7, 32, 32);
+        font-weight: bold;
+        font-size: 0.9em; 
+    }
+
+    .logo {
+        position: relative;
+        right: 28%; 
+        top: -5vw; 
+        width: 40%; 
+        height: auto; 
+    }
+    .cover-img {
+        position: static; 
+        width: 100%; 
+        height: auto; 
+        border-radius: 0; 
+        margin: 0 auto; 
+    }
+
+    .cover h1{
+        bottom: 26em; 
+        font-size: 2em;
+    }
+    .cover p{
+        bottom: 30em; 
+        font-size: 1.4em;
+    }
+    .cover button { 
+        bottom: 55em; 
+        font-size: 0.8em;
+        position: relative;
+        left:10em;
+    }
+    .cover1 h1{
+        bottom: 12em; 
+        font-size: 2em;
+    }
+    .cover1 p {
+        font-size: 1.3em;
+        margin-top: 10px;
+        position: relative;
+
+        bottom: 18em;
+        color: rgb(255, 255, 255);
+    }
+   
+   
+    .cover1 button {
+        color: #ffffff;
+          position: relative;
+        bottom: 30em;
+        left: 13em;
+        padding: 10px 20px;
+        font-size: 0.8em;
+        background-color: rgb(255, 0, 0) ;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .comment {
+        font-size: 2em;
+        color:rgb(32, 7, 7) ;
+        position: relative;
+        bottom: 5em;
+    }
+    .inter-info h1{
+        font-size: 1.5em;
+        color:rgb(255, 0, 0);
+        position: relative;
+        bottom:1em;
+        
+        
+    }
+    .cover p span {
+        font-size: 1.5em;
+        color: red;
+    }
+    .inter-info p{
+        font-size: 1em;
+        color:rgb(7, 32, 32) ;
+        position: relative;
+      bottom: 9em;
+        
+    }
+ 
+    .footer-content p {
+        font-size: 0.6em;
+    }
+    .footer-content  {
+        width: 100%;
+        font-size: 1.3em; 
+        margin-top: 5px; 
+    }
+
+    .footer-section h3 {
+        font-size: 0.6em;
+    }
+
+    .footer-section {
+        margin: 2px; 
+        left: 10em ;
+}   
+}
+@media (max-width: 430px) {
+    .navbar ul {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .navbar li {
+        position: relative;
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .navbar a {
+        position: relative;
+        left: 15em;
+        text-decoration: none;
+        color: rgb(7, 32, 32);
+        font-weight: bold;
+        font-size: 0.7em;
+    }
+
+    .logo {
+        position: relative;
+        right: 36%;
+        top: -7vw;
+        width: 45%;
+        height: auto;
+    }
+
+    .cover-img {
+        width: 120%;
+        position: relative;
+        left: 0;
+        height: auto;
+        border-radius: 0;
+        margin: 0 auto;
+    }
+
+    .cover h1 {
+        font-size: 1.5em;
+        position: relative;
+        bottom: 22em;
+        
+    }
+
+    .cover p {
+        font-size: 1.5em;
+        position: relative;
+        bottom: 22em;
+       
+    }
+
+    .cover button {
+        font-size: 0.5em;
+        margin: 10px auto;
+        display: block;
+       bottom:70em;
+       left: 20em;
+       
+    }
+
+    ..cover-img {
+        position: static; 
+        width: 100%; 
+        height: auto; 
+        border-radius: 0; 
+        margin: 0 auto; 
+    }
+
+    .cover h1{
+        bottom: 26em; 
+        font-size: 2em;
+    }
+    .cover p{
+        bottom: 30em; 
+        font-size: 1.4em;
+    }
+    .cover button { 
+        bottom: 40em; 
+        font-size: 0.8em;
+        position: relative;
+        left:0em;
+    }
+    .cover1 h1{
+        bottom: 12em; 
+        font-size: 2em;
+    }
+    .cover1 p {
+        font-size: 1.3em;
+        margin-top: 10px;
+        position: relative;
+
+        bottom: 18em;
+        color: rgb(255, 255, 255);
+    }
+   
+   
+    .cover1 button {
+        display:none;
+        color: #ffffff;
+          position: relative;
+        bottom: 40em;
+        left: 13em;
+        padding: 10px 20px;
+        font-size: 0.8em;
+        background-color: rgb(255, 0, 0) ;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .comment {
+        font-size: 1em;
+        color:rgb(32, 7, 7) ;
+        position: relative;
+        bottom: 5em;
+    }
+    .inter-info h1{
+        font-size: 1.4em;
+        color:rgb(255, 0, 0);
+        position: relative;
+        bottom:1em;
+        
+        
+    }
+    .cover p span {
+        
+        font-size: 1.5em;
+        color: red;
+    }
+    .inter-info p{
+        font-size: 0.7em;
+        color:rgb(7, 32, 32) ;
+        position: relative;
+      bottom: 9em;
+        
+    }
+ 
+    .footer-content p {
+        font-size: 0.6em;
+    }
+    .footer-content  {
+        width: 100%;
+        font-size: 1em; 
+        margin-top: 5px; 
+    }
+
+    .footer-section h3 {
+        font-size: 0.6em;
+    }
+
+    .footer-section {
+        margin: 2px; 
+        left: 10em ;
+}   
+}
