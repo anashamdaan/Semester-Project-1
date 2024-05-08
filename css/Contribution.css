@@ -93,7 +93,30 @@ body, html {
     font-size: 1.7em;
     color: rgb(7, 32, 32);
  }
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 32, 32) ;  
+    padding: 20px;
+    
+}
+.footer-content p{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 1em;
+}
 
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.footer-section h3 {
+    color: #ff0000; 
+}
 @media (max-width: 1024px) {
     .navbar a {
         position: relative;
